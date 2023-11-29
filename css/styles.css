@@ -1,0 +1,241 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+body {
+	background-color: #5F5F5F;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	padding: 50px;
+	display: flex;
+	flex-direction: row;
+	overflow-x: scroll;
+}
+div, img {
+	position: relative;
+	display: block;
+}
+.story {
+	width: 320px;
+	height: 512px;
+	margin-right: 30px;
+}
+.button {
+	padding: 10px 24px;
+	border-radius: 22.5px;
+	background-color: #FFDD2D;
+	color:#000;
+	display: inline-block;
+	margin-top: 10px;
+	line-height: 20px;
+	font-size: 15px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+
+/*сториз 1*/
+.story1 {
+	background: url("../img/1/background1.png") center no-repeat;
+	background-size: contain;
+}
+.story1 .story-content {
+	top: 106px;
+}
+.story1 .yellow-block {
+	background-color: #F2D249;
+	border-radius: 20px;
+	height: 191px;
+	width: 100%;
+}
+.story1 .yellow-block img {
+	position: absolute;
+	bottom: 0;
+	width: auto;
+	height: 254px;
+	left: 36.69px;
+}
+.story1 .gray-block {
+	background-color: #95918F;
+	height: 131px;
+	border-radius: 20px 20px 0 0;
+	padding: 30px 20px 54px;
+	width: 280px;
+}
+.story1 .gray-block .text {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+.story1 .gray-block .text p {
+	font-size: 16px;
+	line-height: 120%;
+}
+.story1 .gray-block .text .month {
+	color: #FFDD2D;
+}
+.story1 .gray-block .text h1 {
+	font-family: Arial Black, Arial, sans-serif;
+	font-size: 32px;
+	line-height: 110%;
+	margin: 10px 0;
+}
+/* END сториз 1*/
+
+
+/*сториз 2*/
+.story2 {
+	background: url("../img/2/background2.png") center no-repeat;
+	background-size: contain;
+	width: 268px;
+	height: 449px;
+	padding: 43px 26px 20px;
+}
+.story2 .story-content {
+	background-color: #fff;
+	width: 268px;
+	height: 100%;
+	border-radius: 16px;
+	color:#000;
+}
+.story2 .story-content .ill {
+	height: 165px;
+	background-color: #F0F0F0;
+	border-radius: 16px 16px 0 0;
+	text-align: center;
+}
+.story2 .story-content .ill img {
+	width: 187.08px;
+	height: auto;
+	top: 21px;
+	margin: 0 auto;
+}
+.story2 .story-content .text {
+	border-radius: 0 0 16px 16px;
+	padding: 20px 20px 22px;
+}
+.story2 .story-content .text .title {
+	margin-bottom: 10px;
+}
+.story2 .story-content .text .title h1 {
+	font-size: 	20px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.story2 .story-content .text .title p {
+	color:#9299A2;
+}
+.story2 .story-content .text p {
+	font-size: 13px;
+	line-height: 15px;
+}
+.story2 .story-content .text .desc p:not(:last-child) {
+	margin-bottom: 5px;
+}
+/*END сториз 2*/
+
+
+/*сториз 3*/
+.story3 {
+	background: url("../img/3/background3.png") center no-repeat;
+	background-size: contain;
+	width: 280px;
+	height: 389px;
+	padding: 76px 20px 47px;
+}
+.story3 .story-content {
+	width: 280px;
+	height: 100%;
+	color:#fff;
+}
+
+.story3 .story-content .ill img {
+	width: 54px;
+	height: auto;
+}
+.story3 .story-content .text .title {
+	margin-bottom: 10px;
+}
+.story3 .story-content .text .title h1 {
+	font-size: 	26px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.story3 .story-content .text .title p {
+	color:#9299A2;
+}
+.story3 .story-content .text {
+	margin: 15px 0;
+}
+.story3 .story-content .text p {
+	font-size: 16px;
+	line-height: 122%;
+}
+.story3 .button {
+	margin-top:0;
+}
+/*END сториз 3*/
+
+
+/*сториз 4*/
+.story4 {
+	background: url("../img/4/background4.png") center no-repeat;
+	background-size: contain;
+	width: 282px;
+	height: 237px;
+	padding: 68px 18px 207px 20px
+}
+.story4 .story-content {
+	width: 242px;
+	height: 197px;
+	color:#fff;
+	background: rgba(255, 255, 255, 16%);
+	border-radius: 24px;
+	outline:1px solid rgba(255, 255, 255, 20%);
+	outline-offset: -1px;
+	padding: 20px;
+	color: #fff;
+}
+.story4 .story-content .text .title {
+	margin-bottom: 15px;
+}
+.story4 .story-content .text .title h1 {
+	font-size: 26px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.story4 .story-content .text .title p {
+	font-size: 16px;
+}
+
+.story4 .story-content .text .desc {
+	margin: 15px 0;
+}
+.story4 .story-content .text p {
+	width: 100%;
+	font-size: 14px;
+	line-height: 120%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.story4 .story-content .text p.hist {
+	font-weight: bold;
+}
+.story4 .story-content .text .desc p:not(:last-child) {
+	margin-bottom: 8px;
+}
+.story4 .story-content .text .desc p span {
+	display: inline-block;
+	position: relative;
+	right: 0;
+	font-weight: bold;
+}
+/*END сториз 4*/
